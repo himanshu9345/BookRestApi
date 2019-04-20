@@ -8,9 +8,10 @@ Functions
 -Seach a Book
 
 API Accepts and send data in JSON fomrat
--
+
 
 How to run the porject?
+-
 - Go to Project folder
 - Open BookRestApi-master\src\main\resources\application.properties file
 - Chnage the MySQL Setting, Create a mysql database and replace {mydb} with newly created database name.
