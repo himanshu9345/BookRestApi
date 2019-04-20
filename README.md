@@ -1,11 +1,8 @@
 # BookRestApi
 
--REST web service that allows user to inventory books.
-Use Java Spring as the framework and mySQL as the database.
-Functions
--Add a book with attributes such as the barcode, title, author, number of pages, and whether or not User has read it.
--Delete a Book
--Seach a Book
+-REST web service that allows user to inventory books.                                                                                      -Use Java Spring as the framework and mySQL as the database.
+Functions                                                                                                                                  -Add a book with attributes such as the barcode, title, author, number of pages, and whether or not User has read it.                      
+-Delete a Book                                                                                                                             -Seach a Book
 
 API Accepts and send data in JSON fomrat
 
@@ -19,7 +16,7 @@ How to run the porject?
 - Run mvn spring-boot:run to run the application
 - Test the app on Postman
 
-Get a book 
+Get/Search a book 
 GET operation
 http://localhost:8080/api/v1/book/93832321312
 last number string can be the barcode of book.
